@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ToDo App</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="./css/flatly.min.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+
+
+	</head>
+	<body>
+
+		<div class="container-fluid" id="wrapper">
+
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-4" id="content">
+					<h2>Your Todo List <i class="fas fa-pencil-alt"></i>
+
+</h2>
+
+					<form action="#" method="POST" role="form">
+
+						<div class="form-group">
+							<div class="input-group">
+							  <input type="text" class="form-control" placeholder="A Django TODO" >
+							  <span class="input-group-btn">
+								  <button type="submit" class="btn btn-success" id="add-btn">Do it <i class="fas fa-check-circle"></i>
+
+</button>
+							  </span>
+							</div>
+						</div>
+					</form>
+
+					<div class="row t10">
+						<div class="col-lg-12">
+							<div class="btn-toolbar">
+
+									<button type="button" class="btn btn-danger btn-block">
+										<i class="fas fa-trash-alt"></i> DELETE COMPLETED
+									</button>
+
+
+									<button type="button" class="btn btn-danger btn-block">
+										<i class="fas fa-trash-alt"></i> Assignment
+									</button>
+
+							</div>
+						</div>
+					</div>
+
+					<ul class="list-group t20">
+						<li class="list-group-item">Record Django Videos</li>
+						<li class="list-group-item todo-completed">Make youtube videos</li>
+						<li class="list-group-item">Go to swimming</li>
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!-- jQuery -->
+		<script src="./js/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+  background-color: #636e72;
+  color: #FFF;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+a{
+	color: #0984e3;
+}
+
+.container {
+	margin-top: 20px;
+	background-color: #b2bec3;
+	padding: 30px;
+}
